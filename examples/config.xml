@@ -4,14 +4,10 @@
     "https://checkstyle.org/dtds/configuration_1_3.dtd">
 <module name="Checker">
   <module name="TreeWalker">
-          <!-- your standard Checks that come with Checkstyle -->
-    <module name="UpperEll"/>
-    <module name="MethodLength"/>
-    <module name="com.adoramel.checks.MethodLimitCheck">
-    </module>
-    <module name="MethodCount">
-      <property name="maxPublic" value="5"/>
-      <property name="maxTotal" value="10"/>
+    <module name="com.adoramel.checks.AnnotatedMethodNameCheck"/>
+    <module name="com.adoramel.checks.AnnotatedMethodNameCheck">
+      <property name="annotations" value="@Setter"/>
+      <property name="methodPattern" value="^set.*"/>
     </module>
   </module>
 </module>

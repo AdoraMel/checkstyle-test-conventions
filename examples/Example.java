@@ -1,6 +1,19 @@
 package examples;
 
 public class Example {
+
+    private int _exampleCount = 10;
+    private int _daysSinceLastAccident = 0;
+
+    @Setter
+    public int setExampleCount(int exampleCount) {
+        _exampleCount = exampleCount;
+    }
+
+    @Setter
+    public int changeDaysSinceLastAccident(int daysSinceLastAccident) {
+        _daysSinceLastAccident = daysSinceLastAccident;
+    }
     
     // Method 1: Addition
     public int add(int a, int b) {

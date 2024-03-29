@@ -29,3 +29,6 @@ replay_pid*
 # Ignore Gradle build output directory
 build
 /.vscode
+
+# Include checkstyle jar for testing
+!checkstyle-10.14.2-all.jar

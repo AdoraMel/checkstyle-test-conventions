@@ -28,6 +28,8 @@ replay_pid*
 
 # Ignore Gradle build output directory
 build
+
+# Ignore IDE files
 /.vscode
 
 # Include checkstyle jar for testing

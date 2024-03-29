@@ -2,6 +2,10 @@ plugins {
     id 'java'
 }
 
+dependencies {
+    implementation "com.puppycrawl.tools:checkstyle:10.0"
+}
+
 repositories {
     mavenCentral()
 }

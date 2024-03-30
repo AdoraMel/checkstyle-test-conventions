@@ -8,7 +8,7 @@ public class AnnotatedMethodNameCheck extends AbstractCheck
   private static final String[] _DEFAULT_ANNOTATIONS = { "@Test" };
   private String[] _annotations =  _DEFAULT_ANNOTATIONS;
  
-  private static final String _DEFAULT_METHOD_PATTERN = "^test.*";
+  private static final String _DEFAULT_METHOD_PATTERN = "^test.*$";
   private String _methodPattern = _DEFAULT_METHOD_PATTERN;
  
   @Override

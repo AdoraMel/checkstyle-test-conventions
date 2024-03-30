@@ -9,5 +9,6 @@
       <property name="annotations" value="@Setter"/>
       <property name="methodPattern" value="^set.*"/>
     </module>
+    <module name="com.adoramel.checks.TestMethodCommentsCheck"/>
   </module>
 </module>

@@ -19,7 +19,7 @@ Can also be configured to check for any pattern and annotations.
 
 ## Example usage
 
-See the Javadoc in the implementation or the `Examples` folder.
+See the Javadoc in the [implementation](https://github.com/AdoraMel/checkstyle-test-conventions/tree/main/src/main/java/com/adoramel/checks) or the [Examples folder](https://github.com/AdoraMel/checkstyle-test-conventions/tree/main/examples).
 
 ## License
 

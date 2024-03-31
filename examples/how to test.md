@@ -2,7 +2,9 @@
 
 ## Build
 
-You need to use Gradle to build the project. This should generate `..\build\libs\checkstyle-test-conventions.jar`.
+You need to use Gradle to build the project. This should generate `..\build\libs\checkstyle-test-conventions.jar`.  
+
+Alternatively, the jar can be obtained from the [Releases](https://github.com/AdoraMel/checkstyle-test-conventions/releases).
 
 ## Run
 
